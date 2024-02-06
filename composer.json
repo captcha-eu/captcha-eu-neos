@@ -2,6 +2,7 @@
     "name": "captcha-eu/neos",
     "type": "neos-package",
     "license": "GPL-3.0-or-later",
+    "version": "1.0",
     "description": "Form Element to integrate Captcha.eu into the Flow Form Framework",
     "require": {
         "neos/form": "^5.0"

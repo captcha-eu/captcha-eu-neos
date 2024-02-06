@@ -1,6 +1,6 @@
 <?php
 
-namespace Ahorn\FriendlyCaptcha\FormElements;
+namespace CaptchaEU\CaptchaEU\FormElements;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\Error\Messages\Error;
