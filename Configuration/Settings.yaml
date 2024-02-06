@@ -3,26 +3,24 @@ Neos:
     presets:
       general:
         formElementTypes:
-          'Ahorn.FriendlyCaptcha:Captcha':
+          'CaptchaEU.CaptchaEU:Captcha':
             superTypes:
               - 'Neos.Form:FormElement'
             renderingOptions:
-              templatePathPattern: 'resource://Ahorn.FriendlyCaptcha/Private/Form/Captcha.html'
-              validationErrorTranslationPackage: Ahorn.FriendlyCaptcha
-            implementationClassName: Ahorn\FriendlyCaptcha\FormElements\Captcha
+              templatePathPattern: 'resource://CaptchaEU.CaptchaEU/Private/Form/Captcha.html'
+              validationErrorTranslationPackage: CaptchaEU.CaptchaEU
+            implementationClassName: CaptchaEU\CaptchaEU\FormElements\Captcha
   Neos:
     fusion:
       autoInclude:
-        'Ahorn.FriendlyCaptcha': true
+        'CaptchaEU.CaptchaEU': true
     userInterface:
       translation:
         autoInclude:
-          'Ahorn.FriendlyCaptcha':
+          'CaptchaEU.CaptchaEU':
             - 'NodeTypes/*'
 
-Ahorn:
-  FriendlyCaptcha:
-    siteKey: 'add-your-site-key'
-    secretKey: 'add-your-secret-key'
-    language: 'de'
-    startVerification: 'auto'
+CaptchaEU:
+  CaptchaEU:
+    publicKey: 'add-your-site-key'
+    restKey: 'add-your-secret-key'

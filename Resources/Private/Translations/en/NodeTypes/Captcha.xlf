@@ -3,7 +3,7 @@
     <file original="" product-name="Ahorn.FriendlyCaptcha" source-language="en" datatype="plaintext">
         <body>
             <trans-unit id="ui.label" xml:space="preserve">
-                <source>Friendly Captcha</source>
+                <source>Captcha.eu</source>
             </trans-unit>
         </body>
     </file>

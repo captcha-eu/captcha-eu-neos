@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="" product-name="Ahorn.FriendlyCaptcha" source-language="en" datatype="plaintext">
+  <file original="" product-name="CaptchaEU.CaptchaEU" source-language="en" datatype="plaintext">
     <body>
         <trans-unit id="1732156724" xml:space="preserve" approved="yes">
             <source>Error in configuration. Please try again later.</source>
@@ -13,9 +13,6 @@
         </trans-unit>
         <trans-unit id="1380742852" xml:space="preserve" approved="yes">
             <source>The provided captcha solution is invalid.</source>
-        </trans-unit>
-        <trans-unit id="1380742853" xml:space="preserve" approved="yes">
-            <source>The captcha solution has expired or has already been used.</source>
         </trans-unit>
         <trans-unit id="1380742851" xml:space="preserve" approved="yes">
             <source>An error has occured. Please try again later.</source>

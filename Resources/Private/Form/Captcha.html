@@ -1,7 +1,6 @@
 <f:layout name="Neos.Form:Field" />
 <f:section name="field">
      <div class="form-frc-captcha">
-         <f:form.hidden property="{element.identifier}" id="{element.uniqueIdentifier}" class="form-frc-captcha-solution" value="" />
          <div class="frc-captcha" id="frc-captcha-{element.uniqueIdentifier}"
             data-sitekey="{f:if(condition: element.properties.overrideSiteKey, then: element.properties.overrideSiteKey, else: element.properties.siteKey)}"
             data-start="{f:if(condition: element.properties.overrideStartVerification, then: element.properties.overrideStartVerification, else: element.properties.startVerification)}"

@@ -1,14 +1,14 @@
 {
-    "name": "ahorn/friendlycaptcha",
+    "name": "captcha-eu/neos",
     "type": "neos-package",
     "license": "GPL-3.0-or-later",
-    "description": "Form Element to integrate Friendly Captcha into the Flow Form Framework",
+    "description": "Form Element to integrate Captcha.eu into the Flow Form Framework",
     "require": {
         "neos/form": "^5.0"
     },
     "autoload": {
         "psr-4": {
-            "Ahorn\\FriendlyCaptcha\\": "Classes"
+            "CaptchaEU\\CaptchaEU\\": "Classes"
         }
     },
     "suggest": {
@@ -16,7 +16,7 @@
     },
     "extra": {
         "neos": {
-            "package-key": "Ahorn.FriendlyCaptcha",
+            "package-key": "CaptchaEU.CaptchaEU",
             "loading-order": {
                 "after": [
                     "neos/form-builder"
