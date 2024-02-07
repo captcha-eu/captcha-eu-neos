@@ -17,7 +17,7 @@ class Captcha extends AbstractFormElement
 
 
     /**
-     * Check the friendly captcha solution before submitting form.
+     * Check the captcha solution before submitting form.
      *
      * @param FormRuntime $formRuntime The current form runtime
      * @param mixed       $elementValue The transmitted value of the form field.
