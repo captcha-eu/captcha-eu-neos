@@ -5,9 +5,6 @@
             <trans-unit id="groups.config" xml:space="preserve">
                 <source>Base Configuration</source>
             </trans-unit>
-            <trans-unit id="properties.overrideOptions" xml:space="preserve">
-                <source>Override Options</source>
-            </trans-unit>
             <trans-unit id="properties.overrideKeys" xml:space="preserve">
                 <source>Override Public Key and Rest Key</source>
             </trans-unit>

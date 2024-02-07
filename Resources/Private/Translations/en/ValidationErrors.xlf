@@ -8,11 +8,8 @@
         <trans-unit id="1515642243" xml:space="preserve" approved="yes">
             <source>No captcha solution is given.</source>
         </trans-unit>
-        <trans-unit id="1735489214" xml:space="preserve" approved="yes">
-            <source>Validation server is not responding.</source>
-        </trans-unit>
         <trans-unit id="1380742852" xml:space="preserve" approved="yes">
-            <source>The provided captcha solution is invalid.</source>
+            <source>captcha.eu invalid</source>
         </trans-unit>
         <trans-unit id="1380742851" xml:space="preserve" approved="yes">
             <source>An error has occured. Please try again later.</source>

@@ -1,11 +1,13 @@
 Neos:
   Form:
     presets:
-      general:
+      default:
         formElementTypes:
           'CaptchaEU.CaptchaEU:Captcha':
             superTypes:
               - 'Neos.Form:FormElement'
+            validators:
+              - identifier: 'Neos.Flow:NotEmpty'
             renderingOptions:
               templatePathPattern: 'resource://CaptchaEU.CaptchaEU/Private/Form/Captcha.html'
               validationErrorTranslationPackage: CaptchaEU.CaptchaEU

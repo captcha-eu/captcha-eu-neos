@@ -1,10 +1,8 @@
 prototype(CaptchaEU.CaptchaEU:Captcha.Definition) < prototype(Neos.Form.Builder:FormElement.Definition) {
     formElementType = 'CaptchaEU.CaptchaEU:Captcha'
-
-    @context.languageDimension = ${Configuration.setting('Neos.ContentRepository.dimensionTypes.language') != null ? Configuration.setting('Neos.ContentRepository.dimensionTypes.language') : 'language'}
-
     properties {
         publicKey = ${Configuration.setting('CaptchaEU.CaptchaEU.publicKey') ? Configuration.setting('CaptchaEU.CaptchaEU.publicKey') : null}
         restKey = ${Configuration.setting('CaptchaEU.CaptchaEU.restKey') ? Configuration.setting('CaptchaEU.CaptchaEU.restKey') : null}
     }
 }
+
