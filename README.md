@@ -30,7 +30,33 @@ In production environment we strictly recommend to use environment variables to 
 
 Create a new form in Neos backend. Add the new Captcha.eu form element to you form.
 
-![Captche Element](Documentation/Images/add-frc-fom-element.jpg)
+![Captche Element](Documentation/Images/127a.png)
+
+## Usage with [Neos.Form](https://github.com/neos/form)
+
+Simply add the new form element to your form definition renderables:
+
+```yaml
+type: 'Neos.Form:Form'
+identifier: someIdentifier
+label: Label
+renderables:
+  -
+    type: 'Neos.Form:Page'
+    identifier: page-one
+    renderables:
+      -
+        type: 'CaptchaEU.CaptchaEU:Captcha'
+        identifier: captcha
+        label: Captcha
+        properties:
+          publicKey: your-public-key
+          restKey: your-private-key
+finishers:
+  -
+   <Your finishers here>
+```
+
 
 ## Override Settings
 
