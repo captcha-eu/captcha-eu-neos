@@ -30,7 +30,7 @@ In production environment we strictly recommend to use environment variables to 
 
 Create a new form in Neos backend. Add the new Captcha.eu form element to you form.
 
-![Captche Element](Documentation/Images/127a.png)
+![Captche Element](Documentation/Images/screen.png)
 
 ## Usage with [Neos.Form](https://github.com/neos/form)
 
